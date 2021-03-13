@@ -1,0 +1,55 @@
+.sameLine {
+  display: flex; 
+  flex-direction: row;
+  }
+
+  form {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+  }
+  
+  .form-group {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  
+  @media only screen and (min-width: 768px){
+    
+  form {
+    width: 420px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+  }
+  
+  .form-group {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .form-div {
+    margin-top: 100px;
+  }
+  
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  }
+  

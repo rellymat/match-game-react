@@ -1,0 +1,136 @@
+
+
+.container{
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+p {
+  white-space: pre-line; 
+}
+
+.badge {
+  border: 2px solid rgb(104, 81, 81);
+  position: relative;
+  margin: 0;
+  width: 200px;
+  height: 65px;  
+}
+
+.selected {
+  border: 2px solid red;
+}
+
+.tableNotification {
+  left: 0%;
+  width: 200px;
+  height: 65px; 
+}
+
+h1 {
+  text-align: center;
+}
+
+.notification {
+  position: absolute;
+  right: 7%;
+  top: 0%;
+  width: 200px;
+  height: 65px;
+}
+
+
+.check {
+  position: absolute;
+  right: 8%;
+  color: green;
+  font-size: 30px;
+}
+
+.mistake {
+  color: red;
+}
+
+
+.message{
+  width: 60%;
+  height: 80%;
+  top: 15%;
+  left: 20%;
+  background-color: rgb(204, 102, 0);
+  border: 2px solid black;
+  position: absolute;
+}
+
+
+
+.timer {
+  display: block;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  position: absolute; 
+}
+
+
+.life {
+  position: absolute;
+  top: 0%;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px){
+  .tableNotification {
+    position: relative;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .badge {
+    border: 2px solid rgb(104, 81, 81);
+    position: relative;
+    margin: 0;
+    width: 133px;
+    height: 50px;  
+  }
+
+  
+  .life {
+    position: absolute;
+    top: 0%;
+    font-size: 20px;
+  }
+
+  .message{
+    width: 90%;
+    height: 80%;
+    top: auto;
+    left: auto;
+    right: auto;
+    background-color: rgb(204, 102, 0);
+    border: 2px solid black;
+    position: absolute;
+  }
+
+  
+.selected {
+  border: 2px solid red;
+}
+
+}
+
+

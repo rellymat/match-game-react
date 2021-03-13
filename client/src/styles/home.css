@@ -1,0 +1,15 @@
+.container {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pos {
+    margin-top: 100px;
+}
+
+.buttonsize {
+    width: 300px;
+}
